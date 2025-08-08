@@ -28,11 +28,11 @@ const projects = [
     link: "https://example.com"
   },
   {
-    title: "Corporate Landing",
-    description: "High-converting landing page design for enterprise clients. Optimized for performance, accessibility, and search engines with smooth animations and engaging interactions.",
+    title: "Rolls Landing",
+    description: "A clean, responsive landing page for a sushi and rolls restaurant, showcasing the menu, sustainability efforts, and community highlights. Built with React, Next.js, and MUI for a polished, fast, and user-friendly experience. Hosted on Vercel.",
     image: projectLanding,
-    technologies: ["Next.js", "TypeScript", "Framer Motion", "Tailwind CSS", "Vercel"],
-    link: "https://example.com"
+    technologies: ["Next.js", "Tailwind CSS", "Vercel"],
+    link: "https://rolls-website.vercel.app/"
   }
 ];
 
@@ -40,8 +40,8 @@ export const Portfolio = () => {
   return (
     <div className="min-h-screen bg-background">
       <HeroSection
-        name="John"
-        surname="Doe"
+        name="Anahit"
+        surname="Mkhitaryan"
         description="Full-stack developer passionate about creating digital experiences that make a difference. I craft modern, user-centered solutions using cutting-edge technologies."
       />
       
